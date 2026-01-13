@@ -3,7 +3,7 @@
 Но как мы можем видеть тут ни слова про **Swagger** поэтому сейчас будем это исправлять, для этого нам нужны 3 пакета NuGet:
 - Swashbuckle.AspNetCore.Swagger
 - Swashbuckle.AspNetCore.SwaggerUI
-- Swashbuckle.AspNetCore.SwaggerGen
+- Swashbuckle.AspNetCore.SwaggerGen <br>
 После чего можно приступать к изменению файла `Program.cs`:
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
